@@ -1,0 +1,18 @@
+NAME: Naim Ayat
+EMAIL: naimayat@ucla.edu
+ID: 000000000
+
+This is my submission for Lab 4A (Beaglebone Bring-Up).
+
+It is a tarball containing the following files:
+		- my_beaglebone.jpg: a selfie of me holding my assembled Beaglebone.
+		- connected.png: a screen shot from a USB terminal command session connected
+                     to my system, showing that I gave it a name and configured
+                     network access.
+		- copy.png: a screen shot from a local session in which I copied a "hello
+                world" program from my laptop to my Beaglebone.
+		- build_run.png: a screen shot from a WIFI SSH session in which I built and
+                     ran a "hello world" program.
+		- git.png: a screen shot from a WIFI SSH session in which I installed git
+      and cloned a repository.
+    - README
