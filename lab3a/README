@@ -1,0 +1,13 @@
+NAME: Naim Ayat
+EMAIL: naimayat@ucla.edu
+ID: 000000000
+This is my submission for Lab 3A (File System Interpretation).
+
+It is a tarball containing the following files:
+   - lab3a.c: a source file that reads the on-disk representation of a file 
+     system, analyzes it, and summarizes its contents as per the spec.
+   - ext2_fs.h: a slightly simplified version of the Linux header file that 
+     defines the format of the EXT2 file system.
+   - Makefile: builds and runs program as per the spec. Includes dist and
+     clean targets.
+   - README
