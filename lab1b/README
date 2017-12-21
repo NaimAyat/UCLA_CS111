@@ -1,0 +1,23 @@
+NAME: Naim Ayat
+EMAIL: naimayat@ucla.edu
+ID: 000000000
+This is my submission for Lab 1B (Encrypted Network Communication).
+It is a tarball containing the following files:
+		- README
+		- Makefile
+		- lab1b-server.c
+		- lab1b-client.c
+		- my.key
+
+Makefile: This builds lab1b-server.c and lab1b-client.c using the -o, -g,
+-lmcrypt, -Wall, and -Wextra flags. "Clean" serves to delete all files created
+by the Makefile. "Dist" builds the distribution tarball.
+
+lab1b-server.c: As per the spec, this is a program that establishes a server to
+connect with a client, receive the client's commands, and "serve" the client
+outputs for those commands. It supports an --encrypt=filename option.
+
+lab1b-client.c: This program opens a connection to the server with through a
+port specified by the --port option.
+
+my.key: An encryption key to be used with the server's --encrypt option.
