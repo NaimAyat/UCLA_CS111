@@ -1,0 +1,35 @@
+NAME: Naim Ayat
+EMAIL: naimayat@ucla.edu
+ID: 000000000
+This is my submission for Lab 0 (Warm-Up). It is a tarball containing the
+following files:
+		- README
+		- Makefile
+		- lab0.c
+		- breakpoint.png
+		- backtrace.png
+
+Makefile: This builds lab0 using the -o, -g, -Wall, and -Wextra flags. I've
+written a series of five checks. They determine whether the program correctly
+exits with codes 0, 1, 2, 3, and 4, respectively.
+    - check0: Compares an input file to an output file and determines whether
+		  the program properly copies contents from the prior to the latter.
+		- check1: Attempts to run the program with an invalid option.
+		- check2: Attempts to run the program with a non-existent input file.
+		- check3: Attempts to run the program without write permissions to the
+			output file.
+		- check4: Ensures that a segmentation fault can be properly caught.
+Moreover, "clean" serves to delete all files created by the Makefile. "Dist"
+builds the distribution tarball.
+
+lab0.c: This is the only source file for this project. As per the spec, it is a
+program that copies its standard input to its standard output by reading from
+file descriptor 0 (until encountering an EOF) and writing to file descriptor 1.
+
+breakpoint.png: This confirms that the fault pointer is indeed NULL. I set a
+breakpoint at line 115, where the NULL pointer gets dereferenced in order to
+force a segmentation fault. The screenshot shows that I am trying to access
+memory at address 0x0, meaning I'm trying to dereference a NULL pointer.
+
+backtrace.png: This simply displays a backtrace from the segmentation fault. At
+this point, the segfault is the only function on the stack.
