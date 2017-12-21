@@ -1,0 +1,18 @@
+NAME: Naim Ayat
+EMAIL: naimayat@ucla.edu
+ID: 000000000
+
+This is my submission for Lab 1A (Terminal I/O and Inter-Process Communication).
+It is a tarball containing the following files:
+		- README
+		- Makefile
+		- lab1a.c
+
+Makefile: This builds lab1a.c using the -o, -g, -Wall, and -Wextra flags.
+"Clean" serves to delete all files created by the Makefile.
+"Dist" builds the distribution tarball.
+
+lab0.c: This is the only source file for this project. As per the spec, it is a
+program that establishes:
+	1. Character-at-a-time, full duplex terminal I/O
+	2. Polled I/O and passing input and output between two processes
