@@ -1,0 +1,16 @@
+NAME: Naim Ayat
+EMAIL: naimayat@ucla.edu
+ID: 000000000
+
+This is my submission for Lab 4B (Beaglebone Sensors).
+
+It is a tarball containing the following files:
+   - lab4b.c: a source file for an embedded application that builds and runs
+     on a Beaglebone. Gets readings from temperature sensor and generates a
+     report as per the spec.
+   - Makefile: builds and tests program as per the spec. Includes a short
+     smoke test in check.
+   - README
+
+Assumptions: temperature calculations are made for an RV5 system. Equivalent
+             R3V3 calculations are present as code comments.
