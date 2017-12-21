@@ -1,0 +1,14 @@
+NAME: Naim Ayat
+EMAIL: naimayat@ucla.edu
+ID: 000000000
+
+This is my submission for Lab 4C (Internet Of Things Security).
+
+It is a tarball containing the following files:
+   - lab4c_tcp.c: a source file for an embedded application that obtains the
+     host name, port # and server status URL for the TCP logging server.
+   - lab4c_tls.c: a source file for an embedded application that obtains the
+     host name, port # and server status URL for the TLS logging server.
+   - Makefile: builds and tests program as per the spec. Includes clean and dist
+     targets.
+   - README
