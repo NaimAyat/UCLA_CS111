@@ -2,7 +2,9 @@
 
 #NAME: Naim Ayat
 #EMAIL: naimayat@ucla.edu
-#ID: 000000000echo "" > lab2_list.csv
+#ID: 000000000
+
+echo "" > lab2_list.csv
 echo "" > lab2_add.csv
 
 for x in 10 20 40 100 1000 10000 100000; do
