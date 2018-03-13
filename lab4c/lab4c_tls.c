@@ -1,6 +1,7 @@
 //NAME: Naim Ayat
 //EMAIL: naimayat@ucla.edu
-//ID: 000000000#include <getopt.h>
+//ID: 000000000
+#include <getopt.h>
 #include <string.h>
 #include <pthread.h>
 #include <netinet/in.h>
